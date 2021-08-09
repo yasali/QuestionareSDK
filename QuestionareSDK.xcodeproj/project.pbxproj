@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FC34FB6D26BD4F7D00A6EC90 /* QuestionareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC34FB6326BD4F7D00A6EC90 /* QuestionareSDK.framework */; };
-		FC34FB8226BD4FB600A6EC90 /* FlowTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34FB8126BD4FB600A6EC90 /* FlowTest.swift */; };
-		FC34FB8626BD511E00A6EC90 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34FB8526BD511E00A6EC90 /* Flow.swift */; };
+		FC34FB8226BD4FB600A6EC90 /* QProcedureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34FB8126BD4FB600A6EC90 /* QProcedureTest.swift */; };
+		FC34FB8626BD511E00A6EC90 /* QProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34FB8526BD511E00A6EC90 /* QProcedure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +27,8 @@
 		FC34FB6726BD4F7D00A6EC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC34FB6C26BD4F7D00A6EC90 /* QuestionareSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestionareSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC34FB7326BD4F7D00A6EC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC34FB8126BD4FB600A6EC90 /* FlowTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowTest.swift; sourceTree = "<group>"; };
-		FC34FB8526BD511E00A6EC90 /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
+		FC34FB8126BD4FB600A6EC90 /* QProcedureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QProcedureTest.swift; sourceTree = "<group>"; };
+		FC34FB8526BD511E00A6EC90 /* QProcedure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QProcedure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				FC34FB6726BD4F7D00A6EC90 /* Info.plist */,
-				FC34FB8526BD511E00A6EC90 /* Flow.swift */,
+				FC34FB8526BD511E00A6EC90 /* QProcedure.swift */,
 			);
 			path = QuestionareSDK;
 			sourceTree = "<group>";
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				FC34FB7326BD4F7D00A6EC90 /* Info.plist */,
-				FC34FB8126BD4FB600A6EC90 /* FlowTest.swift */,
+				FC34FB8126BD4FB600A6EC90 /* QProcedureTest.swift */,
 			);
 			path = QuestionareSDKTests;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC34FB8626BD511E00A6EC90 /* Flow.swift in Sources */,
+				FC34FB8626BD511E00A6EC90 /* QProcedure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC34FB8226BD4FB600A6EC90 /* FlowTest.swift in Sources */,
+				FC34FB8226BD4FB600A6EC90 /* QProcedureTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
